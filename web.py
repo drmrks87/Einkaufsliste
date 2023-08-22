@@ -19,7 +19,7 @@ def add_item():
 st.title("Einkaufsliste")
 st.write("Heute ist der " + clock)
 
-col1, col2 = st.columns(2)
+col1, empty_col1, col2 = st.columns([0.6, 0.2, 0.4])
 
 with col1:
     st.subheader("Das hier muss alles mit:")
